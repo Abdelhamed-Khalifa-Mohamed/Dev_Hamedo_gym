@@ -8,7 +8,7 @@ function Vitamins() {
     const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart } = useShoppingCart();
     useMobileCardReveal();
     
-    const vitaminsProducts = products.filter(product => product.id >= 7 && product.id <= 11 || product.id >= 24 && product.id <= 28 );
+    const vitaminsProducts = products.filter(product => product.id >= 7 && product.id <= 11);
 
     return (
         <div className="Vitamins">

@@ -264,7 +264,10 @@ function Products() {
             <p>Price: ${product.price}</p>
 
             {quantity === 0 ? (
-              <button className="add-to-cart-btn" onClick={() => increaseCartQuantity(product.id)}>Add to Cart</button>
+              <button className="add-to-cart-btn custom-add-btn" onClick={() => increaseCartQuantity(product.id)}>
+                <span className="custom-add-icon">+</span>
+                <span>Add to Cart</span>
+              </button>
             ) : (
               <div className="quantity-controls">
                 <button className="decrease-btn" onClick={() => decreaseCartQuantity(product.id)}>-</button>
