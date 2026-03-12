@@ -1,11 +1,32 @@
-body
-{
-    margin: 0;
-  background-image: url("/Imges/BackGrounds/Gold1.jpg");
-  background-size: cover;  
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-attachment: fixed;
-  
+* {
+  box-sizing: border-box;
+}
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-image: url("/Imges/BackGrounds/Gold1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
 }

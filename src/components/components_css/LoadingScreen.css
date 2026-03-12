@@ -27,15 +27,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
-  padding: 60px;
+  gap: 1.6rem;
+  padding: 2.2rem;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
-  border-radius: 30px;
+  border-radius: 1.8rem;
   border: 1px solid rgba(227, 159, 22, 0.3);
   box-shadow: 0 8px 50px rgba(227, 159, 22, 0.2), inset 0 1px 1px rgba(255, 255, 255, 0.2);
   animation: slideUp 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-  min-width: 350px;
+  width: min(24rem, 92vw);
+  min-width: auto;
   text-align: center;
 }
 
@@ -51,8 +52,8 @@
 }
 
 .spinner {
-  width: 60px;
-  height: 60px;
+  width: 3.5rem;
+  height: 3.5rem;
   border: 5px solid rgba(227, 159, 22, 0.2);
   border-top-color: #e39f16;
   border-radius: 50%;
@@ -85,8 +86,8 @@
 }
 
 .dots span {
-  width: 12px;
-  height: 12px;
+  width: 0.7rem;
+  height: 0.7rem;
   background-color: #e39f16;
   border-radius: 50%;
   animation: blink 1.5s ease-in-out infinite;
@@ -123,6 +124,25 @@
   margin: 0;
   letter-spacing: 0.5px;
   animation: fadeInText 1s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .loading-container {
+    width: min(22rem, 94vw);
+    padding: 1.4rem;
+    gap: 1.1rem;
+  }
+
+  .loading-container h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .loading-container {
+    width: 95vw;
+    border-radius: 1rem;
+  }
 }
 
 

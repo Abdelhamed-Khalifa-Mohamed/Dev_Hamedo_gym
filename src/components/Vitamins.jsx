@@ -6,7 +6,7 @@ import { useShoppingCart } from '../context/shoppingCart';
 function Vitamins() {
     const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart } = useShoppingCart();
     
-    const vitaminsProducts = products.filter(product => product.id >= 8 && product.id <= 13);
+    const vitaminsProducts = products.filter(product => product.id >= 7 && product.id <= 11);
 
     return (
         <div className="Vitamins">

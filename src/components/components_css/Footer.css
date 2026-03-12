@@ -1,5 +1,6 @@
 .footer {
-    margin: 20px 15% 15px 15%;
+    margin: 1.25rem auto 1rem;
+    width: min(64rem, 94vw);
     padding: 40px 20px; /* Added internal padding so content isn't cramped */
     display: flex;
     flex-direction: column;
@@ -43,7 +44,7 @@
 }
 
 .footer .social-icons img {
-    width: 50px;
+    width: 3rem;
     height: auto;
     filter: grayscale(100%) opacity(0.7);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -61,4 +62,40 @@
     
     font-weight: 500;
     letter-spacing: 0.5px;
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        width: 95vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 1.4rem 0.9rem;
+        border-radius: 1.2rem;
+    }
+
+    .footer h3 {
+        font-size: 1.6rem;
+    }
+
+    .footer .social-icons {
+        gap: 1rem;
+    }
+
+    .footer .social-icons img {
+        width: 2.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        width: 96vw;
+    }
+
+    .footer p {
+        text-align: center;
+        font-size: 0.9rem;
+    }
 }

@@ -6,7 +6,7 @@ import { useShoppingCart } from '../context/shoppingCart';
 function Supplements() {
     const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart } = useShoppingCart();
     
-    const supplementsProducts = products.filter(product => product.id >= 14 && product.id <= 20 || product.id === 7);
+    const supplementsProducts = products.filter(product => product.id >=12 && product.id <= 18 || product.id === 6);
 
     return (
         <div className="Supplements">
