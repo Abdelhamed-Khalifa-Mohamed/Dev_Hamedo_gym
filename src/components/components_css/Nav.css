@@ -109,7 +109,7 @@ nav.move-side ul {
     top: calc(100% + 0.55rem);
     left: 0;
     right: 0;
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 0.75rem;
     background: rgba(255, 255, 255, 0.12);
@@ -119,6 +119,11 @@ nav.move-side ul {
     border-radius: 0.95rem;
     padding: 0.8rem;
     box-shadow: 0 0.5rem 1.25rem rgba(227, 159, 22, 0.15);
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+    pointer-events: none;
+    visibility: hidden;
+    transition: opacity 0.28s ease, transform 0.28s ease, visibility 0.28s ease;
   }
 
   nav.scrolled ul {
@@ -132,7 +137,10 @@ nav.move-side ul {
   }
 
   nav.menu-open ul {
-    display: flex;
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+    visibility: visible;
   }
 
   nav ul li {

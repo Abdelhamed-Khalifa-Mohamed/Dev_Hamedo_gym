@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './components_css/Products.css';
 import { useShoppingCart } from '../context/shoppingCart';
+import useMobileCardReveal from './useMobileCardReveal';
 
 
 export const products = [
@@ -141,6 +142,7 @@ export const products = [
 function Products() {
 
   const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart } = useShoppingCart();
+  useMobileCardReveal();
 
   return (
     <div className="products-container">
@@ -150,7 +152,7 @@ function Products() {
         const quantity = getItemQuantity(product.id);
 
         return (
-          <div className="product-card" key={product.id}>
+          <div className="product-card mobile-reveal-card" key={product.id}>
 
             <img src={product.image} alt={product.name} />
             <h3>{product.name}</h3>

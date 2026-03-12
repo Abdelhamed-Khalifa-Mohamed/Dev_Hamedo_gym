@@ -2,9 +2,11 @@ import { Link } from 'react-router-dom';
 import './components_css/Products.css';
 import { products } from './Products';
 import { useShoppingCart } from '../context/shoppingCart';
+import useMobileCardReveal from './useMobileCardReveal';
 
 function Supplements() {
     const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart } = useShoppingCart();
+    useMobileCardReveal();
     
     const supplementsProducts = products.filter(product => product.id >=12 && product.id <= 18 || product.id === 6);
 
@@ -26,7 +28,7 @@ function Supplements() {
                 {supplementsProducts.map((product) => {
                     const quantity = getItemQuantity(product.id);
                     return (
-                        <div className="product-card" key={product.id}>
+                        <div className="product-card mobile-reveal-card" key={product.id}>
                             <img src={product.image} alt={product.name} />
                             <h3>{product.name}</h3>
                             <p>Price: ${product.price}</p>
