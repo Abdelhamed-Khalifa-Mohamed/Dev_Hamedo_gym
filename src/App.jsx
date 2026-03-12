@@ -16,12 +16,14 @@ import Vitamins from "./components/Vitamins"
 import Proteins from "./components/Proteins"
 import LoadingScreen from "./components/LoadingScreen"
 import CartAlert from "./components/CartAlert"
+import WelcomeIntro from "./components/WelcomeIntro"
 
 
 
 function App() {
   const location = useLocation();
   const [isLoading, setIsLoading] = useState(true);
+  const [showWelcome, setShowWelcome] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {setIsLoading(false);}, 1500);
@@ -30,6 +32,10 @@ function App() {
 
   if (isLoading) {
     return <LoadingScreen />;
+  }
+
+  if (showWelcome) {
+    return <WelcomeIntro onEnter={() => setShowWelcome(false)} />;
   }
 
   return (
