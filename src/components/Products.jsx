@@ -134,6 +134,111 @@ export const products = [
     price: 5.99,
     image: "/Imges/Items Photos/[6224009096725] Max Muscle Figure 8 lifting Straps-XL.jpg",
     details: "Max Muscle Figure 8 lifting Straps-XL are high-quality lifting straps designed for athletes and fitness enthusiasts. They provide secure grip and support during heavy lifting sessions."
+    },
+    {
+    id: 19,
+    name: "Muscle Add Whey Add-60Serv.-2100G-Chocolate Ice Cream",
+    price: 14.99,
+    image: "/Imges/Items Photos/[6224009363469] Muscle Add Whey Add-60Serv.png",
+    details: "Muscle Add Whey Add-60Serv.-2100G-Chocolate Ice Cream is a high-quality whey protein supplement designed for athletes and fitness enthusiasts. It provides essential amino acids for muscle recovery and growth."
+    }, 
+    {
+    id: 20,
+    name: "Challenger Nutrition Whey Isolate-60Serv.-1800G-Chocolate",
+    price: 5.99,
+    image: "/Imges/Items Photos/[6224009363063] Challenger Nutrition Whey Isolate-60Serv.jpg",
+    details: "Challenger Nutrition Whey Isolate-60Serv.-1800G-Chocolate is a high-quality whey protein isolate designed for athletes and fitness enthusiasts. It provides essential amino acids for muscle recovery and growth."
+    }   ,
+    {
+    id: 21,
+    name: "Big Ramy Labs Red Rex Beef Protein Isolate-60Serv.-1814G.-Vanilla",
+    price: 14.39,
+    image: "/Imges/Items Photos/[6223007823111] Big Ramy Labs Red Rex Beef Protein Isolate-60Serv.-1814G.jpg",
+    details: "Big Ramy Labs Red Rex Beef Protein Isolate-60Serv.-1814G.-Vanilla is a high-quality beef protein isolate designed for athletes and fitness enthusiasts. It provides essential amino acids for muscle recovery and growth."
+    },
+    {
+    id: 22,
+    name: "Marvelous Nutrition Savior Anabolic Recovery Formula-25Serv.-950G.-Strawberry",
+    price: 6.99,
+    image: "/Imges/Items Photos/[0634240129636] Marvelous Nutrition Savior Anabolic Recovery Formula-25Serv.-950G.jpg",
+    details: "Marvelous Nutrition Savior Anabolic Recovery Formula-25Serv.-950G.-Strawberry is a high-quality recovery formula designed for athletes and fitness enthusiasts. It provides essential nutrients for muscle recovery and growth."
+    },
+    {
+    id: 23,
+    name: "Dymatize ISO100-20Serv.-610G.-Birthday Cake Pebbles",
+    price: 27.99,
+    image: "/Imges/Items Photos/[705016600366] Dymatize ISO100-20Serv.-610G.jpg",
+    details: "Dymatize ISO100-20Serv.-610G.-Birthday Cake Pebbles is a high-quality whey protein isolate designed for athletes and fitness enthusiasts. It provides essential amino acids for muscle recovery and growth."
+    },
+    {
+    id: 24,
+    name: "Novogen Pharma Creatine Monohydrate-60Serv.-300G",
+    price: 15.99,
+    image: "/Imges/Items Photos/[6224009328123] Novogen Pharma Creatine Monohydrate-60Serv.png",
+    details: "Novogen Pharma Creatine Monohydrate-60Serv.-300G is a high-quality creatine supplement designed for athletes and fitness enthusiasts. It provides essential amino acids for muscle recovery and growth."
+    },
+    {
+    id: 25,
+    name: "Puritan's Pride Folate 666mcg DFE-250Serv.-250Tabs.",
+    price: 19.99,
+    image: "/Imges/Items Photos/[074312114038] Puritan's Pride Folate 666mcg DFE-250Serv.jpg",
+    details: "Puritan's Pride Folate 666mcg DFE-250Serv.-250Tabs. is a high-quality folate supplement designed for athletes and fitness enthusiasts. It provides essential nutrients for muscle recovery and growth."
+    },
+    {
+    id: 26,
+    name: "Himalaya Liv.52 Ds-90Tabs.",
+    price: 29.99,
+    image: "/Imges/Items Photos/[8901138110017] Himalaya Liv.jpg",
+    details: "Himalaya Liv.52 Ds-90Tabs. is a high-quality liver support supplement designed for athletes and fitness enthusiasts. It provides essential nutrients for muscle recovery and growth."
+    },
+    {
+    id: 27,
+    name: "Self Omninutrition Multi Vitamin Pro-60Serv-60Vegan Capsules",
+    price: 12.99,
+    image: "/Imges/Items Photos/[7340195404591] Self Omninutrition Multi Vitamin Pro-60Serv-60Vegan Capsules.jpg",
+    details: "Self Omninutrition Multi Vitamin Pro-60Serv-60Vegan Capsules is a high-quality multi-vitamin supplement designed for athletes and fitness enthusiasts. It provides essential nutrients for muscle recovery and growth."
+    },
+    {
+    id: 28,
+    name: "Neocell Super Collagen+Vitamin C&Biotin 60Serv.-180Tablets",
+    price: 14.99,
+    image: "/Imges/Items Photos/[016185132603] Neocell Super Collagen+Vitamin C&Biotin 60Serv.jpg",
+    details: "Neocell Super Collagen+Vitamin C&Biotin 60Serv.-180Tablets is a high-quality collagen supplement designed for athletes and fitness enthusiasts. It provides essential nutrients for muscle recovery and growth."
+    },
+    {
+    id: 29,
+    name: "Max Muscle Lifting Straps With Hook-Black",
+    price: 9.99,
+    image: "/Imges/Items Photos/[6222023700161] Max Muscle Lifting Straps With Hook.jpg",
+    details: "Max Muscle Lifting Straps With Hook-Black is a high-quality lifting straps designed for athletes and fitness enthusiasts. It provides essential support for muscle recovery and growth."
+    },
+    {
+    id: 30,
+    name: "Max Muscle Wall mounted Body Building pull-up Bar",
+    price: 9.99,
+    image: "/Imges/Items Photos/[151245] Max Muscle Wall mounted Body Building pull-up.jpg",
+    details: "Max Muscle Wall mounted Body Building pull-up Bar is a high-quality pull-up bar designed for athletes and fitness enthusiasts. It provides essential support for muscle recovery and growth."
+    },
+    {
+    id: 31,
+    name: "Max Muscle Wall mounted Cross Fit pull-up Bar",
+    price: 9.99,
+    image: "/Imges/Items Photos/[151246] Max Muscle Wall mounted Cross Fit pull-up.jpg",
+    details: "Max Muscle Wall mounted Cross Fit pull-up Bar is a high-quality pull-up bar designed for athletes and fitness enthusiasts. It provides essential support for muscle recovery and growth."
+    },
+    {
+    id: 32,
+    name: "Hand Grip - 10 KG To 40 KG",
+    price: 9.99,
+    image: "/Imges/Items Photos/[151074] Hand Grip - 10 KG To 40 KG.jpg",
+    details: "Hand Grip - 10 KG To 40 KG is a high-quality hand grip designed for athletes and fitness enthusiasts. It provides essential support for muscle recovery and growth."
+    },
+    {
+    id: 33,
+    name: "Max Muscle Lifting Straps-Black",
+    price: 9.99,
+    image: "/Imges/Items Photos/[6224009096589] Max Muscle Lifting Straps.jpg",
+    details: "Max Muscle Lifting Straps-Black is a high-quality lifting straps designed for athletes and fitness enthusiasts. It provides essential support for muscle recovery and growth."
     }
 
 
