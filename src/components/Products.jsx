@@ -198,13 +198,13 @@ export const products = [
     image: "/Imges/Items Photos/[7340195404591] Self Omninutrition Multi Vitamin Pro-60Serv-60Vegan Capsules.jpg",
     details: "Self Omninutrition Multi Vitamin Pro-60Serv-60Vegan Capsules is a high-quality multi-vitamin supplement designed for athletes and fitness enthusiasts. It provides essential nutrients for muscle recovery and growth."
     },
-    {
-    id: 28,
-    name: "Neocell Super Collagen+Vitamin C&Biotin 60Serv.-180Tablets",
-    price: 14.99,
-    image: "/Imges/Items Photos/[016185132603] Neocell Super Collagen+Vitamin C&Biotin 60Serv.jpg",
-    details: "Neocell Super Collagen+Vitamin C&Biotin 60Serv.-180Tablets is a high-quality collagen supplement designed for athletes and fitness enthusiasts. It provides essential nutrients for muscle recovery and growth."
-    },
+    // {
+    // id: 28,
+    // name: "Neocell Super Collagen+Vitamin C&Biotin 60Serv.-180Tablets",
+    // price: 14.99,
+    // image: "/Imges/Items Photos/[016185132603] Neocell Super Collagen+Vitamin C&Biotin 60Serv.jpg",
+    // details: "Neocell Super Collagen+Vitamin C&Biotin 60Serv.-180Tablets is a high-quality collagen supplement designed for athletes and fitness enthusiasts. It provides essential nutrients for muscle recovery and growth."
+    // },
     {
     id: 29,
     name: "Max Muscle Lifting Straps With Hook-Black",
