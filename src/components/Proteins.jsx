@@ -8,7 +8,7 @@ function Proteins() {
     const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart } = useShoppingCart();
     useMobileCardReveal();
     
-    const proteinsProducts = products.filter(product => product.id >= 1 && product.id <= 5);
+    const proteinsProducts = products.filter(product => product.id >= 1 && product.id <= 5 || product.id >= 19 && product.id <= 24);
 
     return (
         <div className="Proteins">
