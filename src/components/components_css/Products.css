@@ -1,0 +1,84 @@
+.products-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background: url(/Imges/BackGrounds/RedLines1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 30px;
+  border-radius: 25px;  
+  box-shadow: 0 8px 35px #e39f16aa;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-weight: bold;
+  width: 400px;
+  max-width: 90%;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translatey(-5px);
+  box-shadow: 0 12px 45px #e39f16dd;
+  cursor: pointer;
+}
+
+.product-card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  box-shadow: 0 4px 25px #e39f16aa;
+}
+
+/* / */
+
+.add-to-cart-btn {
+  background: #e39f16;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 15px #e39f16ee;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.add-to-cart-btn:hover
+{
+  background: #d68d0a;
+  box-shadow: 0 6px 25px #e39f16ff;
+  transform: translateY(-3px) scale(1.05);
+}
+
+.add-to-cart-btn:active {
+  transform: translateY(4px) scale(1.01);
+}
+.view-details-link {
+  margin-top: 15px;
+  color: #e39f16;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease-out, transform 0.3s ease-out;
+}
+.view-details-link:hover {
+  color: #d68d0a;
+  transition: all 0.3s ease-in;
+  transform: scale(1.1);
+}

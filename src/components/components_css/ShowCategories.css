@@ -1,0 +1,117 @@
+.showCatigori {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px auto;
+  padding: 40px;
+  max-width: 600px;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 25px;
+  box-shadow: 0 8px 35px #e39f16aa;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+
+
+.showCatigori h1 {
+  color: #e39f16;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: default;
+}
+
+.showCatigori h1:hover {
+  text-shadow: 0 0 20px #e39f16, 0 0 40px #e39f1688;
+  transform: scale(1.08);
+  color: #ffb33d;
+}
+
+.showCatigori ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.showCatigori ul li {
+  width: 100%;
+  animation: fadeInUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  opacity: 0;
+}
+
+.showCatigori ul li:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.showCatigori ul li:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.showCatigori ul li:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.showCatigori ul li a {
+  display: block;
+  padding: 15px 25px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: rgba(227, 159, 22, 0.8);
+  border: 1px solid rgba(227, 159, 22, 0.6);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px #e39f1655;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  overflow: hidden;
+}
+
+.showCatigori ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: left 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: -1;
+}
+
+.showCatigori ul li a:hover::before {
+  left: 0;
+}
+
+.showCatigori ul li a:hover {
+  background-color: #e39f16;
+  box-shadow: 0 8px 35px #e39f16cc, inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transform: translateY(-4px);
+  border-color: #ffb33d;
+  letter-spacing: 0.5px;
+}
